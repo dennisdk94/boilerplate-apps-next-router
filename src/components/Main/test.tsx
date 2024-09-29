@@ -9,7 +9,7 @@ describe('<Main />', () => {
 
     // busca o elemento e verifica a existencia dele
     expect(
-      screen.getByRole('heading', { name: /Teste react/i })
+      screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
   })
 })
